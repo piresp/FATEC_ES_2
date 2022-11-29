@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AuqueMia - Home</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="assets/img/logo.png" alt="AuqueMia" class="cabecalho__logo">
+        <p class="cabecalho__perfil">Admin</p>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+    </header>
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.png" alt="AuqueMia" class="menu-lateral__logo">
+        <a href="./home.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+        <a href="./agenda.html" class="menu-lateral__link menu-lateral__link--agenda menu-lateral__link--ativo">Agenda</a>
+        <a href="./produtos.html" class="menu-lateral__link menu-lateral__link--produtos">Produtos</a>
+        <a href="./servicos.html" class="menu-lateral__link menu-lateral__link--servicos">Serviços</a>
+        <a href="./clientes.html" class="menu-lateral__link menu-lateral__link--clientes">Clientes</a>
+        <a href="./financas.html" class="menu-lateral__link menu-lateral__link--financas">Finanças</a>
+    </nav>
+
+    <main class="principal">
+      <h2 class="titulo-pagina">Agenda</h2>
+      <article class="cartao cartao--destaque destaque-cartao">
+          <img src="assets/img/agenda_imagem.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+          <img src="assets/img/agenda_imagem.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+          <div class="cartao__conteudo">
+              <h3 class="cartao__titulo">Novo Horário</h3>
+          </div>
+      </article>
+      <article class="cartao cartao--recentes videos-recentes">
+          <h3 class="cartao__titulo">Próximos Atendimentos</h3>
+          <a href="#" class="cartao__link">Ver todos</a>
+          <ul class="cartao__lista">
+              <li class="cartao__item">
+                  <img src="assets/img/banho_tosa.png" alt="" class="cartao__item-thumbnail">
+                  <h4 class="cartao__item-titulo">Banho e Tosa</h4>
+                  <p class="cartao__item-perfil">8:45</p>
+              </li>
+              <li class="cartao__item">
+                  <img src="assets/img/banho_tosa.png" alt="" class="cartao__item-thumbnail">
+                  <h4 class="cartao__item-titulo">Banho</h4>
+                  <p class="cartao__item-perfil">9:30</p>
+              </li>
+              <li class="cartao__item">
+                  <img src="assets/img/banho_tosa.png" alt="" class="cartao__item-thumbnail">
+                  <h4 class="cartao__item-titulo">Banho e Tosa</h4>
+                  <p class="cartao__item-perfil">10:15</p>
+              </li>
+              <li class="cartao__item">
+                  <img src="assets/img/cachorro_psicologo.png" alt="" class="cartao__item-thumbnail">
+                  <h4 class="cartao__item-titulo">Psicologo</h4>
+                  <p class="cartao__item-perfil">10:30</p>
+              </li>
+              <li class="cartao__item">
+                  <img src="assets/img/cirurgia.png" alt="" class="cartao__item-thumbnail">
+                  <h4 class="cartao__item-titulo">Cirurgia</h4>
+                  <p class="cartao__item-perfil">11:00</p>
+              </li>
+          </ul>
+      </article>
+  </main>
+
+</html>
